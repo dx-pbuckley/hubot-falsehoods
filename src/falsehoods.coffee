@@ -21,7 +21,7 @@ module.exports = (robot) ->
     msg.send "FALSE.  Congenital analgesia sufferers cannot feel pain."
 
   robot.hear /yolo/i, (msg) ->
-    msg.send "FALSE; not if you're Hindu."
+    msg.send "FALSE. Not if you believe in reincarnation."
 
   robot.hear /sky(s|'s| ?is) ?the ?limit/i, (msg) ->
     msg.send "FALSE.  Man has walked on the moon."
@@ -90,7 +90,7 @@ module.exports = (robot) ->
     msg.send "FALSE.  No amount of practice will result in perfect accuracy or precision due to chaos effects."
 
   robot.hear /(easy|ez) ?come[\.,;]* ?(easy|ez) ?go/i, (msg) ->
-    msg.send "FALSE: Herpes."
+    msg.send "FALSE: TSA."
 
   robot.hear /penny ?saved ?(is)? ?a? ?penny ?earned/i, (msg) ->
     msg.send "FALSE. You had already earned that penny. Also, pennies have been phased out by North American national mints."

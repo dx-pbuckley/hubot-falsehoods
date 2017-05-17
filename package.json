@@ -1,7 +1,7 @@
 {
-  "name": "hubot-falsehoods",
+  "name": "hubot-falsehoods-pb",
   "description": "Hubot script. Contradicts popular phrases in amusing ways.  (Most of these are Dwight Schrute memes)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "grant.bowering@gmail.com",
   "license": "MIT",
 
@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/grantbowering/hubot-falsehoods.git"
+    "url": "git://github.com/dx-pbuckley/hubot-falsehoods.git"
   },
 
   "bugs": {
-    "url": "https://github.com/grantbowering/hubot-falsehoods/issues"
+    "url": "https://github.com/dx-pbuckley/hubot-falsehoods/issues"
   },
 
   "dependencies": {
