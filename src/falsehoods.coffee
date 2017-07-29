@@ -23,6 +23,9 @@ module.exports = (robot) ->
   robot.hear /yolo/i, (msg) ->
     msg.send "FALSE. Not if you believe in reincarnation."
 
+  robot.hear /birthday/i, (msg) ->
+    msg.send "FALSE. It is your birthday. It's a matter of fact, it's not like you cured cancer."
+
   robot.hear /sky(s|'s| ?is) ?the ?limit/i, (msg) ->
     msg.send "FALSE.  Man has walked on the moon."
 
