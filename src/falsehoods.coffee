@@ -14,6 +14,9 @@ module.exports = (robot) ->
   robot.hear /raining ?cats ?and ?dogs/i, (msg) ->
     msg.send "FALSE.  Precipitation consists almost entirely of water."
 
+  robot.hear /no ?(woman|man|one) ?(\'|i)s ?an ?island/i, (msg) ->
+    msg.send "FALSE.  False. I am an island. And this island, is volcanic. And it is about to erupt, with the molten hot lava... of strategy."
+
   robot.hear /(love ?is ?all ?y(ou|a) ?need|all ?y(ou|a) ?need ?is ?love)/i, (msg) ->
     msg.send "FALSE.  You need water and rations."
 
