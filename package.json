@@ -1,7 +1,7 @@
 {
   "name": "hubot-falsehoods-pb",
   "description": "Hubot script. Contradicts popular phrases in amusing ways.  (Most of these are Dwight Schrute memes)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "grant.bowering@gmail.com",
   "license": "MIT",
 
@@ -20,7 +20,7 @@
   },
 
   "peerDependencies": {
-    "hubot": "2.x"
+    "hubot": "3.1.1"
   },
 
   "devDependencies": {
@@ -31,7 +31,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-mocha-test": "~0.12.7",
     "grunt-release": "~0.11.0",
-    "hubot": "2.x",
+    "hubot": "3.1.1",
     "matchdep": "~0.3.0",
     "mocha": "^2.1.0",
     "sinon": "^1.13.0",
